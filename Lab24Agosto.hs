@@ -41,6 +41,12 @@ reversa :: [a] -> [a]
 reversa [] = []
 reversa (x:xs) = (reversa xs) ++ [x]
 
+--Ejemplo de función anónima
+--(\x -> (2 * x)) 2
+
+--Ejemplo de filter
+--filter (\x -> (mod x 2) == 0) [1,2,3,4,5,6,7,8,9,10]
+
 
 
 
